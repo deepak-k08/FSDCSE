@@ -82,4 +82,4 @@
 console.log("Hello World");
 let parent = document.getElementsByClassName("parent");
 console.log(parent);
-parent[0].innerText=" <h2 style=color:red> Data has changed</h2> ";
+parent[0].innerText=" <h2 style=color:red> Data has changed</h2>"
