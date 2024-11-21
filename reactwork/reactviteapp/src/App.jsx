@@ -2,6 +2,8 @@ import React from 'react'
 import Student from './Student';
 import UseStudentState from './UseStudentState';
 import Imagemanipulation from './Imagemanipulation';
+import MyUseEffect from './MyUseEffect';
+import UseFetchAPI from './UseFetchAPI';
 
 function App() {
 
@@ -39,15 +41,17 @@ function App() {
   //   }
   // ];
 
-  return (
-    <div>
-      <h2>Hello using UseStudentState</h2>
+    return (
       <div>
-        {/* <UseStudentState/> */}
-        {<Imagemanipulation/>}
+        <h2>Hello using UseStudentState</h2>
+        <div>
+          {/* <UseStudentState/> */}
+          {/* {<Imagemanipulation/>} */}
+          {/* {<MyUseEffect/>} */}
+          {<UseFetchAPI/>}
+        </div>
       </div>
-    </div>
-  );
+    );
 
   // Uncomment this return block if you'd like to use the student data display.
   // return (
