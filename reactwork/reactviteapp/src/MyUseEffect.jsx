@@ -27,7 +27,6 @@ function MyUseEffect() {
 
         <button onClick={doPointer} style={{padding:10, color:'#2A3663' , backgroundColor:'#D8DBBD',border:'2px dotted black'}}>Pointer</button>
 
-
         
 
         <br/>
